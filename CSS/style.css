@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+  
+.tooltip .tooltiptext {
+    position: absolute;
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    background-color: #6495ED;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    z-index: 1;
+    opacity: .85;
+}
+  
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.input{
+    width: 100%;
+    height: 100%;
+}
+
+.table {
+    width: 60%;
+    margin-top: 8vh;
+    margin-bottom: 4vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table th:first-child{
+    border-radius: 10px 0 0 0;
+}
+
+table th:last-child{
+    border-radius: 0 10px 0 0;
+}
+
+.table td, #table th {
+    padding: 8px;
+    text-align: center;
+    font-size: 1rem;
+}
+  
+.table tr:nth-child(even){background-color: #f2f2f2;}
+  
+.table tr:hover {
+    background-color: #ddd;
+    font-weight: bold;
+}
+  
+.table th {
+    text-align: center;
+    background-color: #6495ED;
+    color: white;
+}
+
+.note-form{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.input-box, .drop-down, .sort-by{
+    font-size: large;
+}
+
+.fas, .far{
+    color: #6699ff;
+}
+
+.cancel{
+    color: red;
+}
+
+.accept{
+    color: green;
+}

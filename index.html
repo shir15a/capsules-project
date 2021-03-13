@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootcamp- Itay's Class</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Shippori+Mincho+B1&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+        integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+</head>
+
+<body>
+    <form class="note-form">
+        <div class="form-group">
+            <span>search:</span>
+            <input type="text" id="title" class="input-box" placeholder="search..">
+            <select name="category" class="drop-down">
+                <option value="select">-- Select --</option>
+                <option value="firstName">First Name</option>
+                <option value="lastName">Last Name</option>
+                <option value="capsule">Capsule</option>
+                <option value="age">Age</option>
+                <option value="city">City</option>
+                <option value="gender">Gender</option>
+                <option value="hobby">Hobby</option>
+            </select>
+            <span>sort by:</span>
+            <select name="sort" class="sort-by">
+                <option value="select">-- Select --</option>
+                <option value="firstName">First Name</option>
+                <option value="lastName">Last Name</option>
+                <option value="capsule">Capsule</option>
+                <option value="age">Age</option>
+                <option value="city">City</option>
+                <option value="gender">Gender</option>
+                <option value="hobby">Hobby</option>
+            </select>
+        </div>
+    </form>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Capsule</th>
+                <th>Age</th>
+                <th>City</th>
+                <th>Gender</th>
+                <th>Hobby</th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody class="table-body"></tbody>
+    </table>
+    <script src="/JS/app.js"></script>
+</body>
+</html>
